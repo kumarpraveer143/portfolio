@@ -2,7 +2,7 @@ import Link from "next/link"
 import Title from "./Title"
 import { cn } from "@/lib/utils"
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
-import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb, SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux } from "react-icons/si";
+import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb, SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux, SiSocketdotio } from "react-icons/si";
 import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb";
 
 
@@ -25,14 +25,14 @@ const Projects = () => {
     },
     {
       title: "Storefleet Backend",
-      tech: [SiTypescript, SiPostgresql, SiPrisma, TbBrandNodejs, SiExpress,],
+      tech: [SiJavascript, SiReact, TbBrandNodejs, SiMongodb, SiExpress, SiTailwindcss,],
       Link: "https://github.com/kumarpraveer143/store-fleet",
       cover: "/storefleet.png",
       background: "bg-pink-500"
     },
     {
       title: "Chatting Room",
-      tech: [SiTypescript, SiPostgresql, SiPrisma, TbBrandNodejs, SiExpress,],
+      tech: [SiJavascript, TbBrandNodejs, SiExpress, SiSocketdotio],
       Link: "https://kumarpraveer.github.io/chatRoom/",
       cover: "/chattingRoom.png",
       background: "bg-pink-500"
