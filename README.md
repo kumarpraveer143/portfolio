@@ -1,6 +1,4 @@
-<div style="text-align: center;">
-    <img src="https://i.ibb.co/Jj5PRsg/new-Portfolio.png" alt="Portfolio Banner" style="max-width: 100%; height: auto;">
-</div>
+![Screenshot 2025-06-04 180234](https://github.com/user-attachments/assets/bf200bc2-4e54-40f5-8798-aec8a3a35945)
 
 # Portfolio Website
 
